@@ -1,1 +1,4 @@
 /target
+/vscode-plugin/hurl-ls/node_modules
+/vscode-plugin/hurl-ls/dist
+/vscode-plugin/hurl-ls/hurlsp
