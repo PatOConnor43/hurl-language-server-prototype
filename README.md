@@ -52,3 +52,12 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 ```
+
+#### VS Code plugin
+This repo also contains a small VS Code plugin to start the language server as well. To run it:
+- Copy binary into the hurl-ls folder (siblings with `src`)
+- `npm install` inside hurl-ls folder
+- `npm run pacakge`
+- Open the hurl-ls folder in VS Code
+- Use the Run menu to run the extension
+- This should open another instance of VS Code where you can open a hurl file and hopefully see it working
